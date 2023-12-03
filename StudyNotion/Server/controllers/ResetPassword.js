@@ -23,7 +23,7 @@ exports.resetPasswordToken = async (req, res) => {
 			},
 			{ new: true }
 		);
-		console.log("DETAILS", updatedDetails);
+		// console.log("DETAILS", updatedDetails);
 
 		const url = `https://study-notion-five.vercel.app/update-password/${token}`;
 
